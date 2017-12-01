@@ -1,8 +1,15 @@
 {
   "name": "jxa-browserify",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "simple CLI wrapper for browserifying jxa scripts, allowing node modules to be used in jxa scripts",
   "main": "index.js",
+  "os": [
+    "darwin"
+  ],
+  "bin": {
+    "jxa-browserify-run": "bin/jxa-browserify-run.sh",
+    "jxa-browserify-compile": "bin/jxa-browserify-compile.sh"
+  },
   "scripts": {
     "jxa-browserify-run": "./bin/jxa-browserify-run.sh ",
     "jxa-browserify-compile": "./bin/jxa-browserify-compile.sh "
