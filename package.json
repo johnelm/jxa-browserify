@@ -1,0 +1,29 @@
+{
+  "name": "jxa-browserify",
+  "version": "1.0.0",
+  "description": "simple CLI wrapper for browserifying jxa scripts, allowing node modules to be used in jxa scripts",
+  "main": "index.js",
+  "scripts": {
+    "jxa-browserify-run": "./bin/jxa-browserify-run.sh ",
+    "jxa-browserify-compile": "./bin/jxa-browserify-compile.sh "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnelm/jxa-browserify.git"
+  },
+  "keywords": [
+    "jxa",
+    "osa",
+    "osascript",
+    "applescript"
+  ],
+  "author": "John Elm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnelm/jxa-browserify/issues"
+  },
+  "homepage": "https://github.com/johnelm/jxa-browserify#readme",
+  "dependencies": {
+    "browserify": "^14.5.0"
+  }
+}
